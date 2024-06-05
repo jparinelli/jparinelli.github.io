@@ -1,3 +1,5 @@
 theme: minima
 title: El Coloso Invisible
 description: Revelando misterios de la web.
+minima:
+  skin: dark
