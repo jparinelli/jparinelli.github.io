@@ -28,6 +28,8 @@ url: "https://jparinelli.github.io" # the base hostname & protocol for your site
 
 # Build settings
 theme: minima
+minima:
+  skin: auto
 plugins:
   - jekyll-feed
 
