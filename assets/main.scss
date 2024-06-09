@@ -1,7 +1,11 @@
 ---
 ---
 /* Override theme defaults */
-$base-font-family: Courier Prime;
+$base-font-family {
+  font-family: "Courier Prime";
+  src: url(../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+
 /* $brand-color: orange; */
 
 /* load _sass/minima.scss */
