@@ -3,7 +3,7 @@
 /* Override theme defaults */
 $base-font-family {
   font-family: "Courier Prime";
-  src: url(../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+  src: url(""../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf");
 }
 
 /* $brand-color: orange; */
@@ -12,6 +12,14 @@ $base-font-family {
 @import "minima";
 
 /* Put any custom CSS here */
+
+.bgimage {
+  background-image: url("../assets/images/wp6491031-moebius-desktop-wallpapers.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 h1 {
   padding-bottom: 2px;
