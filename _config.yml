@@ -25,7 +25,6 @@ title: El Coloso Invisible
 url: "https://jparinelli.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
-date_format: "%-d %m %Y"
 lang: es
 
 # Build settings
