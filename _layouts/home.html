@@ -1,23 +1,7 @@
 ---
 layout: base
 ---
-{% assign m = post.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
-{% case m %}
-  {% when '1' %}Januar
-  {% when '2' %}Februar
-  {% when '3' %}März
-  {% when '4' %}April
-  {% when '5' %}Mai
-  {% when '6' %}Juni
-  {% when '7' %}Juli
-  {% when '8' %}August
-  {% when '9' %}September
-  {% when '10' %}Oktober
-  {% when '11' %}November
-  {% when '12' %}Dezember
-{% endcase %}
-{{ page.date | date: "%Y" }}
+
 <div class="home bgimage">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -41,7 +25,23 @@ layout: base
       {%- for post in posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%-d %m %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format}}
+        <span class="post-meta">{% assign m = post.date | date: "%-m" %}
+      {{ post.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Januar
+        {% when '2' %}Februar
+        {% when '3' %}März
+        {% when '4' %}April
+        {% when '5' %}Mai
+        {% when '6' %}Juni
+        {% when '7' %}Juli
+        {% when '8' %}August
+        {% when '9' %}September
+        {% when '10' %}Oktober
+        {% when '11' %}November
+        {% when '12' %}Dezember
+      {% endcase %}
+      {{ post.date | date: "%Y" }}
         </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
