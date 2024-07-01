@@ -42,7 +42,8 @@ layout: base
       {{ post.date | date: "%Y" }}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}
+        <span class="post-meta">
+          <!-- {{ post.date | date: date_format }} -->
         </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
