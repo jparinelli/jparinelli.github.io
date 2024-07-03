@@ -22,6 +22,11 @@ $brand-color: #1F09B2;
   background-size: cover;
 }
 
+.site-header {
+  border-top: none;
+  border-bottom: none;
+}
+
 header {
   /* display: none; */
 }
