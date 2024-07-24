@@ -15,8 +15,8 @@ $brand-color: #1F09B2;
 }
 
 .bgimage {
-  background-color: #5ea1f0;
-  background-image: url("../assets/images/moebius_2k.png");
+  /* background-color: #5ea1f0; */
+  background-image: url("../assets/images/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ $brand-color: #1F09B2;
 .site-header {
   border-top: none;
   border-bottom: none;
-/*  background: white; */
+  background: none;
 }
 
 .site-title {

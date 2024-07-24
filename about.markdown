@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## La sigla
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**CERO** es la sigla para _Centro de Estudios en Replicancia y Olvido_. El objetivo del Centro es un abordaje filosófico sobre el concepto de replicadores, entendidos éstos ya no como una máquina biológica, sino como un mecanismo mental que asegura la transmisión de ideas entre personas. De manera complementaria, este centro estudia los mecanismos del olvido, aquellos que garantizan la no transmisión o muerte de las ideas.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## El autor
 
-
-[jekyll-organization]: https://github.com/jekyll
+El autor de este sitio es Juan Parinelli, estudiante de Filosofía en la Universidad de Buenos Aires e investigador independiente. 
