@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de
 permalink: /about/
-img: url("../assets/images/background2.png")
+img: url("../assets/images/background2.jpg")
 ---
 
 ## La sigla
