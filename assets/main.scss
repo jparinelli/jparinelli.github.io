@@ -2,24 +2,70 @@
 ---
 /* Override theme defaults */
 $base-font-family: Helvetica;
-
+$background-color: #d3d3d3;
+$text-color: black;
 $brand-color: #1F09B2;
+$content-width: 100%;
 
 /* load _sass/minima.scss */
 @import "minima";
 
 /* Put any custom CSS here */
 
-.post-meta {
-  color: black;
+.post-card {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-.bgimage {
-  /* background-color: #5ea1f0; */
-  background-image: url("../assets/images/background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.post-link {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.post-image {
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  margin-right: 16px;
+  max-width: 40%;
+  position: relative;
+  min-width: 120px;
+  margin-bottom: 0;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.post-tag {
+  color: gray;
+  font: 16px/1.4 $base-font-family;
+  margin: 0;
+}
+
+.post-wrapper {
+  font: 14px/1.4 $base-font-family;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.post-excerpt {
+  margin: 0;
+}
+
+.post-meta {
+  color: gray;
 }
 
 .site-header {
@@ -32,8 +78,33 @@ $brand-color: #1F09B2;
   color: black;
 }
 
+.site-subtitle {
+  color: gray;
+}
+
 .page-link {
   color: black;
+}
+
+@media (max-width: 768px) {
+  .post-link {
+    flex-direction: column;
+  }
+
+  .post-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+    min-width: 250px;
+  }
+
+  .post-title {
+    font: 24px/1.4 $base-font-family;
+  }
+}
+
+h4 {
+  margin: 0;
 }
 
 header {
