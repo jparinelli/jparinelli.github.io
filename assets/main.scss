@@ -2,9 +2,8 @@
 ---
 /* Override theme defaults */
 $base-font-family: Courier;
-$background-color: #a7d6fa;
-$text-color: black;
-$brand-color: white;
+$background-color: #F9F6EE;
+$brand-color: #314156;
 $content-width: 80%;
 
 /* load _sass/minima.scss */
@@ -14,7 +13,7 @@ $content-width: 80%;
 
 .post-card {
   display: flex;
-  border: 2px solid white;
+  /* border: 2px solid black; */
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -22,7 +21,7 @@ $content-width: 80%;
   flex-direction: column;
   max-width: 100%;
   box-sizing: border-box;
-  background-color: #13293d;
+  background-color: #a7d6fa;
   align-items: flex-start;
   margin-bottom: 32px;
 }
@@ -35,6 +34,10 @@ $content-width: 80%;
   flex-direction: row;
 }
 
+.post-link:hover {
+  text-decoration: none;
+}
+
 .post-image {
   flex: 0 0 auto;
   flex-shrink: 0;
@@ -43,8 +46,8 @@ $content-width: 80%;
   position: relative;
   min-width: 120px;
   margin-bottom: 0;
-  height: 200px;
-  border: 1px solid white;
+  height: auto;
+  border: 1px solid black;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -71,7 +74,7 @@ $content-width: 80%;
 }
 
 .post-meta {
-  color: white;
+  color: black;
   font-style: italic;
   margin-top: 16px;
 }
@@ -80,24 +83,36 @@ $content-width: 80%;
   flex: 1;
 }
 
-.site-header {
-  border-top: none;
-  border-bottom: 2px solid white;
-  background: none;
-}
-
 .site-title {
-  color: black;
+  color: white;
   font-size: 36px;
-  margin-top: 20px;
+  padding-left: 0px;
 }
 
-.site-subtitle {
-  color: black;
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-title:visited {
+  color: white;
 }
 
 .page-link {
-  color: black;
+  color: white;
+}
+
+.page-link:visited {
+  color: white;
+}
+
+.page-link:hover {
+  text-decoration: none;
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: 2px solid white;
+  background-color: #13293d;
 }
 
 @media (max-width: 768px) {
