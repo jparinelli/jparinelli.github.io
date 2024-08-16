@@ -1,11 +1,11 @@
 ---
 ---
 /* Override theme defaults */
-$base-font-family: Helvetica;
-$background-color: #d3d3d3;
+$base-font-family: Courier;
+$background-color: #a7d6fa;
 $text-color: black;
-$brand-color: #1F09B2;
-$content-width: 100%;
+$brand-color: white;
+$content-width: 80%;
 
 /* load _sass/minima.scss */
 @import "minima";
@@ -14,19 +14,25 @@ $content-width: 100%;
 
 .post-card {
   display: flex;
-  border: 1px solid #000;
+  border: 2px solid white;
   border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   max-width: 100%;
   box-sizing: border-box;
+  background-color: #13293d;
+  align-items: flex-start;
+  margin-bottom: 32px;
 }
 
 .post-link {
   display: flex;
   box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+  flex-direction: row;
 }
 
 .post-image {
@@ -37,6 +43,10 @@ $content-width: 100%;
   position: relative;
   min-width: 120px;
   margin-bottom: 0;
+  height: 200px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .post-image img {
@@ -44,16 +54,11 @@ $content-width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
-}
-
-.post-tag {
-  color: gray;
-  font: 16px/1.4 $base-font-family;
-  margin: 0;
+  box-sizing: border-box;
 }
 
 .post-wrapper {
-  font: 14px/1.4 $base-font-family;
+  font: 16px/1.4 $base-font-family;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -62,24 +67,33 @@ $content-width: 100%;
 
 .post-excerpt {
   margin: 0;
+  flex: 1;
 }
 
 .post-meta {
-  color: gray;
+  color: white;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+.post-title {
+  flex: 1;
 }
 
 .site-header {
   border-top: none;
-  border-bottom: none;
+  border-bottom: 2px solid white;
   background: none;
 }
 
 .site-title {
   color: black;
+  font-size: 36px;
+  margin-top: 20px;
 }
 
 .site-subtitle {
-  color: gray;
+  color: black;
 }
 
 .page-link {
@@ -96,6 +110,7 @@ $content-width: 100%;
     margin-right: 0;
     margin-bottom: 16px;
     min-width: 250px;
+    height: auto;
   }
 
   .post-title {
