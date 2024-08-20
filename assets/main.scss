@@ -19,18 +19,16 @@ $content-width: 70%;
 
 .post-card {
   display: flex;
+  flex-direction: row;
   border: 1.5px solid gray;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
   max-width: 100%;
   width: 100%;
   box-sizing: border-box;
   align-items: flex-start;
   margin-bottom: 32px;
-  max-height: 300px;
+  max-height: 100%;
   overflow: hidden;
 }
 
@@ -38,8 +36,6 @@ $content-width: 70%;
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  flex: 0 0 auto;
-  flex-shrink: 1;
   flex-direction: row;
 }
 
@@ -48,19 +44,15 @@ $content-width: 70%;
 }
 
 .post-image {
-  flex: 0 0 auto;
-  flex-shrink: 0;
-  max-width: 45%;
-  position: relative;
-  min-width: 120px;
+  max-width: 48%;
+  flex: 1 1 auto;
   margin-bottom: 0;
+  max-height: 100%;
   box-sizing: border-box;
-  overflow: hidden;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .post-image img {
-  width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
@@ -69,28 +61,22 @@ $content-width: 70%;
   border-radius: 8px;
 }
 
-.vertical-bar {
-  width: 8px;
-  background-color: $brand-color;
-  margin: 0 16px;
-  max-height: 100%;
-}
-
 .post-wrapper {
   font: 16px/1.4 $base-font-family;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   width: 100%;
   max-width: 100%;
-  padding: 2px;
+  flex: 2 1 auto;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 0px;
 }
 
 .post-excerpt {
   margin: 0;
   padding-top: 8px;
   flex: 1;
-  overflow: hidden;
 }
 
 .post-meta {
@@ -171,21 +157,44 @@ $content-width: 70%;
 
 .site-nav {
   display: flex;
-  position: relative;
   margin-left: auto;
 }
 
 @media (max-width: 768px) {
+  .page-content {
+    padding-top: 15px;
+  }
+
+  .page-content .wrapper {
+    max-width: 100%;
+  }
+
   .post-link {
     flex-direction: column;
   }
 
+  .site-header::before {
+    width: 100%;
+    left: 0px;
+  }
+
+  .post-card {
+    margin-bottom: 15px;
+  }
+  .post-wrapper {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 0px;
+    flex: 1;
+  }
+
   .post-image {
+    max-width: 100%;
     width: 100%;
     margin-right: 0;
     margin-bottom: 16px;
-    min-width: 250px;
-    height: auto;
+    padding: 10px;
+    padding-left: 10px;
   }
 
   .post-excerpt {
@@ -193,7 +202,9 @@ $content-width: 70%;
   }
 
   .post-title-index {
-    font: 24px/1.4 $base-font-family;
+    font-size: 1.7em;
+    text-justify: inter-word;
+    text-align: -webkit-center;
   }
 }
 
