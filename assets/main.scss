@@ -1,36 +1,45 @@
 ---
 ---
 /* Override theme defaults */
-$base-font-family: Courier;
+$base-font-family: Inter;
 $background-color: #F9F6EE;
 $brand-color: #314156;
-$content-width: 80%;
+$brand-light-color: #a7d6fa;
+$content-width: 70%;
 
 /* load _sass/minima.scss */
 @import "minima";
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+}
 
 /* Put any custom CSS here */
 
 .post-card {
   display: flex;
-  /* border: 2px solid black; */
+  border: 1.5px solid gray;
   border-radius: 8px;
-  padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
-  background-color: #a7d6fa;
   align-items: flex-start;
   margin-bottom: 32px;
+  max-height: 300px;
+  overflow: hidden;
 }
 
 .post-link {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  flex: 1;
+  flex: 0 0 auto;
+  flex-shrink: 1;
   flex-direction: row;
 }
 
@@ -41,15 +50,13 @@ $content-width: 80%;
 .post-image {
   flex: 0 0 auto;
   flex-shrink: 0;
-  margin-right: 16px;
-  max-width: 40%;
+  max-width: 45%;
   position: relative;
   min-width: 120px;
   margin-bottom: 0;
-  height: auto;
-  border: 1px solid black;
   box-sizing: border-box;
   overflow: hidden;
+  padding-right: 20px;
 }
 
 .post-image img {
@@ -58,35 +65,52 @@ $content-width: 80%;
   display: block;
   object-fit: cover;
   box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.vertical-bar {
+  width: 8px;
+  background-color: $brand-color;
+  margin: 0 16px;
+  max-height: 100%;
 }
 
 .post-wrapper {
   font: 16px/1.4 $base-font-family;
-  flex: 1;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  padding: 2px;
 }
 
 .post-excerpt {
   margin: 0;
+  padding-top: 8px;
   flex: 1;
+  overflow: hidden;
 }
 
 .post-meta {
-  color: black;
+  color: $brand-color;
   font-style: italic;
-  margin-top: 16px;
+  font-size: 14px;
+  padding-top: 8px;
 }
 
-.post-title {
-  flex: 1;
+.post-title-index {
+  padding-bottom: 8px;
+  margin-left: -2px;
+  border-bottom: 3px solid $brand-color;
+  font: 36px/1.4 $base-font-family; 
 }
 
 .site-title {
-  color: white;
-  font-size: 36px;
-  padding-left: 0px;
+  color: $brand-color;
+  font: 42px/1.4 $base-font-family;
+  padding-left: 8px;
 }
 
 .site-title:hover {
@@ -94,15 +118,16 @@ $content-width: 80%;
 }
 
 .site-title:visited {
-  color: white;
+  color: $brand-color;
 }
 
 .page-link {
-  color: white;
+  color: $brand-color;
+  font: 18px/1.4 $base-font-family;
 }
 
 .page-link:visited {
-  color: white;
+  color: $brand-color;
 }
 
 .page-link:hover {
@@ -111,8 +136,43 @@ $content-width: 80%;
 
 .site-header {
   border-top: none;
-  border-bottom: 2px solid white;
-  background-color: #13293d;
+  border-bottom: none;
+  background-color: #a7d6fa;
+  height: 70px;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-height: 70px;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 160px;
+  width: calc(100% - 320px);
+  height: 3px;
+  background-color: $brand-color;
+}
+
+.site-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo img {
+  max-height: 50px;
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  position: relative;
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
@@ -128,7 +188,11 @@ $content-width: 80%;
     height: auto;
   }
 
-  .post-title {
+  .post-excerpt {
+    display: none;
+  }
+
+  .post-title-index {
     font: 24px/1.4 $base-font-family;
   }
 }
