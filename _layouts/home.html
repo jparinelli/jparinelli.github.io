@@ -28,8 +28,7 @@ layout: base
             <img src="{{ post.img }}">
           </figure>
           <div class="post-wrapper">
-            <h4 class="post-title-index">{{ post.title }}</h4>
-            <span class="post-meta">
+            <!-- <span class="post-meta">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d de" }}
               {% case m%}
@@ -47,7 +46,9 @@ layout: base
                 {% when '12' %}Diciembre
               {% endcase %}
               {{ post.date | date: "de %Y" }}
-            </span>
+            </span> -->
+            <h4 class="post-title-index">{{ post.title }}</h4>
+            
             <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
           </div>
         </a>
