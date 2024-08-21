@@ -6,6 +6,7 @@ $background-color: #F9F6EE;
 $brand-color: #314156;
 $brand-light-color: #a7d6fa;
 $content-width: 70%;
+$base-font-size: 18px;
 
 /* load _sass/minima.scss */
 @import "minima";
@@ -76,11 +77,12 @@ $content-width: 70%;
 }
 
 .post-meta {
-  color: lightgray;
+  color: gray;
   font-style: italic;
   font-size: 14px;
-  margin-bottom: 10px;
   max-width: max-content;
+  margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .post-title-index {
@@ -106,7 +108,6 @@ $content-width: 70%;
 
 .page-link {
   color: $brand-color;
-  font: 18px/1.4 $base-font-family;
 }
 
 .page-link:visited {
@@ -157,13 +158,38 @@ $content-width: 70%;
   margin-left: auto;
 }
 
+.page-content .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.post.h-entry {
+  max-width: 70%;
+}
+
+.post-title.p-name {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
+
   .page-content {
     padding-top: 15px;
   }
 
   .page-content .wrapper {
-    max-width: 100%;
+    max-width: 90%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .post.h-entry {
+    font-size: 16px;
+    max-width: 90%;
+  }
+
+  .post-title {
+    margin-top: 15px;
   }
 
   .post-link {
@@ -211,12 +237,7 @@ $content-width: 70%;
   }
 }
 
-h4 {
-  margin: 0;
-}
-
 body {
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
