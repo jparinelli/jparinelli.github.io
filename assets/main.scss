@@ -20,7 +20,6 @@ $content-width: 70%;
 .post-card {
   display: flex;
   flex-direction: row;
-  /*border: 1.5px solid gray;*/
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   max-width: 100%;
@@ -28,8 +27,6 @@ $content-width: 70%;
   box-sizing: border-box;
   align-items: flex-start;
   margin-bottom: 32px;
-  max-height: 100%;
-  overflow: hidden;
 }
 
 .post-link {
@@ -47,18 +44,16 @@ $content-width: 70%;
   max-width: 50%;
   flex: 1 1 auto;
   margin-bottom: 0;
-  max-height: 100%;
   box-sizing: border-box;
   padding: 0px;
   padding-right: 20px;
 }
 
 .post-image img {
-  height: auto;
-  display: block;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   box-sizing: border-box;
-  /* border: 1px solid black; */
 }
 
 .post-wrapper {
@@ -66,8 +61,8 @@ $content-width: 70%;
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 100%;
   flex: 2 1 auto;
+  flex-grow: 1;
   padding: 10px;
   padding-left: 0px;
 }
@@ -75,11 +70,13 @@ $content-width: 70%;
 .post-excerpt {
   margin: 0;
   padding-top: 8px;
+  max-height: 100%;
+  overflow-y: hidden;
   overflow-wrap: break-word;
 }
 
 .post-meta {
-  color: light-gray;
+  color: lightgray;
   font-style: italic;
   font-size: 14px;
   margin-bottom: 10px;
@@ -222,6 +219,11 @@ $content-width: 70%;
 
 h4 {
   margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 header {
