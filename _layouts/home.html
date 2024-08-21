@@ -24,7 +24,7 @@ layout: base
       {%- for post in posts -%}
       <article class="post-card">
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <figure class="post-image">
+          <figure class="preview-image">
             <img src="{{ post.img }}">
           </figure>
           <div class="post-wrapper">
@@ -47,8 +47,7 @@ layout: base
               {% endcase %}
               {{ post.date | date: "de %Y" }}
             </span> -->
-            <h4 class="post-title-index">{{ post.title }}</h4>
-            
+            <h4 class="post-title-index">{{ post.title }}</h4>   
             <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
           </div>
         </a>
