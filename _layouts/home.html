@@ -27,8 +27,8 @@ layout: base
           <figure class="card-image">
             <img src="{{ post.img }}">
           </figure>
-          <div class="card-wrapper" id="parent">
-            <p class="card-meta" id="a">
+          <div class="card-wrapper">
+            <p class="card-meta">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d de" }}
               {% case m%}
@@ -47,7 +47,7 @@ layout: base
               {% endcase %}
               {{ post.date | date: "de %Y" }}
             </p>
-            <h4 class="card-title" id="b">{{ post.title }}</h4>   
+            <h4 class="card-title">{{ post.title }}</h4>   
             <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 75 }}</p>
           </div>
         </a>
