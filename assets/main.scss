@@ -19,29 +19,28 @@ $base-font-size: 18px;
 /* Put any custom CSS here */
 
 .post-card {
-  display: flex;
-  flex-direction: row;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   max-width: 100%;
-  width: 100%;
   box-sizing: border-box;
   align-items: flex-start;
   margin-bottom: 32px;
+  max-height: 300px;
+  overflow: hidden;
 }
 
-.post-link {
+.card-link {
   display: flex;
   box-sizing: border-box;
   width: 100%;
   flex-direction: row;
 }
 
-.post-link:hover {
+.card-link:hover {
   text-decoration: none;
 }
 
-.preview-image {
+.card-image {
   max-width: 50%;
   flex: 1 1 auto;
   margin-bottom: 0;
@@ -50,14 +49,16 @@ $base-font-size: 18px;
   padding-right: 20px;
 }
 
-.preview-image img {
+.card-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   box-sizing: border-box;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.post-wrapper {
+.card-wrapper {
   font: 16px/1.4 $base-font-family;
   display: flex;
   flex-direction: column;
@@ -66,6 +67,7 @@ $base-font-size: 18px;
   flex-grow: 1;
   padding: 10px;
   padding-left: 0px;
+  overflow: hidden;
 }
 
 .post-excerpt {
@@ -74,18 +76,18 @@ $base-font-size: 18px;
   max-height: 100%;
   overflow-y: hidden;
   overflow-wrap: break-word;
+  margin-top: auto;
 }
 
-.post-meta {
+.card-meta {
   color: gray;
   font-style: italic;
   font-size: 14px;
   max-width: max-content;
-  margin-bottom: 0;
-  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
-.post-title-index {
+.card-title {
   padding-bottom: 8px;
   margin-left: -2px;
   border-bottom: 3px solid $brand-color;
@@ -158,17 +160,30 @@ $base-font-size: 18px;
   margin-left: auto;
 }
 
+.page-content {
+  display: flex;
+  justify-content: center;
+}
+
 .page-content .wrapper {
   display: flex;
   justify-content: center;
 }
 
 .post.h-entry {
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .post-title.p-name {
   margin-bottom: 0;
+}
+
+.post-meta {
+  color: gray;
+  font-style: italic;
+  font-size: 14px;
+  max-width: max-content;
+  margin-top: 14px;
 }
 
 @media (max-width: 768px) {
@@ -178,21 +193,23 @@ $base-font-size: 18px;
   }
 
   .page-content .wrapper {
-    max-width: 100%;
+    max-width: 90%;
     padding: 0px;
     margin: 0px;
   }
 
   .post.h-entry {
     font-size: 16px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .post-title {
     margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid $brand-color;
   }
 
-  .post-link {
+  .card-link {
     flex-direction: column;
   }
 
@@ -206,35 +223,47 @@ $base-font-size: 18px;
     border: none;
   }
 
-  .post-wrapper {
+  .card-wrapper {
     box-sizing: border-box;
     padding: 10px;
     padding-top: 0px;
     flex: 1;
   }
 
-  .preview-image {
+  .card-image {
     max-width: 100%;
     width: 100%;
     margin-right: 0;
     padding: 0;
   }
 
+  .card-image img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+
   .post-excerpt {
     display: none;
   }
 
-  .post-title-index {
+  .card-title {
     font-size: 1.3em;
     padding-top: 10px;
     text-align: center;
-    border-bottom: none;
   }
 
-  .post-meta {
-    padding-top: 10px;
-    margin-bottom: 0px;
+  .card-meta {
+    margin-left: auto;
+    margin-top: auto;
   }
+
+  #parent {
+    display: flex;
+    flex-flow: column;
+  }
+  #a{order: 2;}
+  #b{order: 1;}
 }
 
 body {

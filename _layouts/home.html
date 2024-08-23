@@ -23,12 +23,12 @@ layout: base
     <ul class="post-list">
       {%- for post in posts -%}
       <article class="post-card">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <figure class="preview-image">
+        <a class="card-link" href="{{ post.url | relative_url }}">
+          <figure class="card-image">
             <img src="{{ post.img }}">
           </figure>
-          <div class="post-wrapper">
-            <!-- <span class="post-meta">
+          <div class="card-wrapper" id="parent">
+            <p class="card-meta" id="a">
               {% assign m = post.date | date: "%-m" %}
               {{ post.date | date: "%-d de" }}
               {% case m%}
@@ -46,9 +46,9 @@ layout: base
                 {% when '12' %}Diciembre
               {% endcase %}
               {{ post.date | date: "de %Y" }}
-            </span> -->
-            <h4 class="post-title-index">{{ post.title }}</h4>   
-            <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
+            </p>
+            <h4 class="card-title" id="b">{{ post.title }}</h4>   
+            <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 75 }}</p>
           </div>
         </a>
       </article>

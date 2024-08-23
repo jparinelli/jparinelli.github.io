@@ -2,19 +2,33 @@
 layout: base
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <figure class="post-image">
-    <img src="{{ page.img }}">
-  </figure>
   <header class="post-header">
+    <figure class="post-image">
+      <img src="{{ page.img }}">
+    </figure>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
+      <p class="post-meta">
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d de" }}
+        {% case m%}
+          {% when '1' %}Enero
+          {% when '2' %}Febrero
+          {% when '3' %}Marzo
+          {% when '4' %}Abril
+          {% when '5' %}Mayo
+          {% when '6' %}Junio
+          {% when '7' %}Julio
+          {% when '8' %}Agosto
+          {% when '9' %}Septiembre
+          {% when '10' %}Octubre
+          {% when '11' %}Noviembre
+          {% when '12' %}Diciembre
+        {% endcase %}
+        {{ page.date | date: "de %Y" }}
+      </p>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
