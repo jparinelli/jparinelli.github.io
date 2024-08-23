@@ -257,21 +257,10 @@ $base-font-size: 18px;
     margin-left: auto;
     margin-top: auto;
   }
-
-  #parent {
-    display: flex;
-    flex-flow: column;
-  }
-  #a{order: 2;}
-  #b{order: 1;}
 }
 
 body {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
-}
-
-header {
-  /* display: none; */
 }
