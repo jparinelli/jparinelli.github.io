@@ -157,8 +157,12 @@ $base-font-size: 18px;
 }
 
 .site-nav {
-  display: flex;
   margin-left: auto;
+}
+
+.site-nav .page-link {
+  padding: 0;
+  margin-left: 0;
 }
 
 .page-content {
@@ -252,11 +256,13 @@ $base-font-size: 18px;
     font-size: 1.3em;
     padding-top: 10px;
     text-align: center;
+    order: 1;
   }
 
   .card-meta {
     margin-left: auto;
     margin-top: auto;
+    order: 2;
   }
 }
 
