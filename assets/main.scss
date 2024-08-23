@@ -27,6 +27,7 @@ $base-font-size: 18px;
   align-items: flex-start;
   margin-bottom: 32px;
   overflow: hidden;
+  max-height: fit-content;
 }
 
 .card-link {
