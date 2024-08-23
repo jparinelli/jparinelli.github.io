@@ -3,7 +3,7 @@ layout: post
 title: "El misterio de la memética"
 date:   2024-08-15 11:24:00 -0300
 categories: post
-img: "/assets/images/background2.jpg"
+img: "https://lh3.googleusercontent.com/C6HkzTZOrAtlLPkY6tHcUQMX1BoahTG_Gt4ueO_G0dV-J6dqSbT7ElD6Ddg_vg2cNI1D9cIBQMUNaPWIkPrqGVpbE9RY_9Q3Fn0k"
 ---
 
 Nuestra naturaleza humana dicta la siguiente regla: conocer de manera anticipada el final de una historia implica, muchas veces, arruinarla implacablemente. Nos enojamos cuando un amigo nos espoilea esa serie que estábamos viendo, o leemos un tuit maldito, o cuando vemos una porción clave de la historia en un video mientras recorremos la columna infinita del algoritmo. Es simplemente natural: todo final es análogo al fin de nuestra propia vida y nos rehusamos a conocerlo.
@@ -17,6 +17,8 @@ Caigo, sin embargo, en la necesidad de contar una de las conclusiones de este re
 La cruda verdad es que la memética, en tanto proyecto de teoría y modelo científicos, es un fracaso. Casi todos los procesos de investigación, sus intentos de acople a otras disciplinas, así como su incorporación y utilización dentro de diversas instituciones académicas, fallaron. Esto no debería sorprender a nadie, ni a quienes provienen de un sector muy específico de Twitter y saben lo que es la memética, ni a quienes no saben de qué se trata y probablemente crean que proviene de la débil tesis de un estudiante de comunicación social que piensa que hay algo académicamente relevante en los memes de internet. Tiene sentido que casi nadie sepa de qué se trata este proyecto científico si de hecho es fallido. Es por eso que debemos proceder en la explicación, no sólo para que se entienda de qué estamos hablando, sino también para empezar a revelar el misterio de este fracaso.
 
 #### **Una sopa llena de ideas**
+
+<img src="https://www.planetadelibros.com/usuaris/autores/fotos/32/original/000031371_1_Richard_Dawkins_(c)_Jana_Lenzova_202211221315.jpg" width="40%" height="40%" align="right">
 
 La memética toma su nombre del término “meme”, acuñado por Richard Dawkins en su libro *El gen egoísta*, publicado en 1976\. Dawkins es el protagonista de esta historia, un célebre biólogo evolucionista de origen inglés que, sin quererlo, terminó generando un movimiento teórico en el contexto de múltiples ciencias durante casi 30 años debido a la publicación de ese libro. Hay que hacer una aclaración: el “meme” no es la tesis principal del texto, como se entrevé en el nombre; la propuesta de Dawkins es de índole biológica, en concreto, un giro de la visión evolucionista de las especies hacia los genes. Aquí tenemos una parada obligatoria, antes de salir a la ruta, porque arriesgamos a perder parte del concepto de memética si salimos mal preparados.
 
