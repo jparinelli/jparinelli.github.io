@@ -32,7 +32,7 @@ Podemos, sin embargo, detectar vectores. No podremos conocer la estructura del f
 
 Algunos de estos vectores huelen a muerte. Nosotros, los humanos, negamos la propia extinción, así que la pregunta es por qué dejamos que esos vectores fomenten la decadencia. Una respuesta moral a esta pregunta sería extremadamente difícil de justificar; el motivo debe encontrarse en otro lado. 
 
-Tensión entre la vida y la muerte. La mayoría de nosotros seguimos viviendo por medio de una transacción entre nuestra energía vital y la materia que nuestro organismo necesita para funcionar. Otros no se conforman con esto y acumulan excesivamente. Llaman a esto progreso, pero la acumulación implica la extracción. No podemos generar materia ni energía infinitas, de algún lado tienen que salir. El progreso es, en realidad, aceleración. El sistema de extracción global se optimiza a sí mismo acelerando la acumulación. Hay parásitos en el mundo, somos parte del mundo, estamos siendo parasitados.
+Tensión entre la vida y la muerte. La mayoría de nosotros seguimos viviendo por medio de una transacción entre nuestra energía vital y la materia que nuestro organismo necesita para funcionar. Otros no se conforman con esto y acumulan excesivamente. Llaman a esto progreso, pero la acumulación implica la extracción. No podemos generar materia ni energía infinitas, de algún lado tienen que salir. El progreso es, en realidad, aceleración. El sistema de extracción global se optimiza a sí mismo acelerando la acumulación. Hay parásitos en el mundo, somos parte del mundo: **estamos siendo parasitados**.
 
 **Receta para un antiparasitario**
 
