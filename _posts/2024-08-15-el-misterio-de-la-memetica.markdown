@@ -2,8 +2,9 @@
 layout: post
 title: "El misterio de la memética"
 date:   2024-08-15 11:24:00 -0300
-categories: hidden
+categories: post
 img: "https://lh3.googleusercontent.com/C6HkzTZOrAtlLPkY6tHcUQMX1BoahTG_Gt4ueO_G0dV-J6dqSbT7ElD6Ddg_vg2cNI1D9cIBQMUNaPWIkPrqGVpbE9RY_9Q3Fn0k"
+published: false
 ---
 
 Nuestra naturaleza humana dicta la siguiente regla: conocer de manera anticipada el final de una historia implica, muchas veces, arruinarla implacablemente. Nos enojamos cuando un amigo nos espoilea esa serie que estábamos viendo, o leemos un tuit maldito, o cuando vemos una porción clave de la historia en un video mientras recorremos la columna infinita del algoritmo. Es simplemente natural: todo final es análogo al fin de nuestra propia vida y nos rehusamos a conocerlo.

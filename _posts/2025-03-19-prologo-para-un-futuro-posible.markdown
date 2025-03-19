@@ -3,7 +3,7 @@ layout: post
 title: "Prólogo para un futuro posible"
 date:   2025-03-19 16:17:00 -0300
 categories: post
-img: "https://imgur.com/a/um2D1F3"
+img: "https://cms.theghostintheshell.jp/app/uploads/2023/08/dennou.jpg"
 ---
 
 **El olor del presente**
