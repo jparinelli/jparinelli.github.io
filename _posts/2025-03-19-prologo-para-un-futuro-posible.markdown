@@ -20,7 +20,7 @@ Volviendo del laburo olés azufre, potasio, pólvora. Es el olor de la represió
 
 En la puerta de tu casa hay cuatro tipos rancheando. Huelen a cirrosis, epoc y plata robada de la jubilación de sus madres. No te dejan pasar, te cancherean, te muestran las cicatrices del penal. Sentís el miedo, una pulsión de vida que te impulsa a defenderte. No lo hacés, todavía no tenés la ferocidad necesaria para matar. Seguís vivo, tu familia te espera adentro.
 
-Un eco se infiltra por la red, una frase sin origen: nunca pasa nada. Suspirás y te vas a dormir.
+Un eco se infiltra por la red, una frase sin origen: _nunca pasa nada_. Suspirás y te vas a dormir.
 
 Soñás que las cosas son diferentes.
 
