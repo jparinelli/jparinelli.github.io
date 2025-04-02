@@ -48,7 +48,7 @@ layout: base
               {{ post.date | date: "de %Y" }}
             </p>
             <h4 class="card-title">{{ post.title }}</h4>   
-            <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 75 }}</p>
+            <p class="post-excerpt">{{ post.pre-text | strip_html | truncatewords: 75 }}</p>
           </div>
         </a>
       </article>
