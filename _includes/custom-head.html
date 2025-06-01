@@ -12,6 +12,6 @@
 <meta property="og:title" content={{ page.title }}/>
 <meta property="og:description" content="{{ page.pre-text }}"/>
 <meta property="og:url" content="{{ page.url }}"/>
-<meta property="og:image" content="{{ page.thumbnail }}"/>
+<meta property="og:image" content="{{ page.img | replace: "https://", "http://" }}"/>
 <meta property="og:image:height" content="300"/>
 <meta property="og:image:width" content="300"/>
