@@ -4,7 +4,8 @@ title: "Las leyes de transferencia"
 date:   2025-05-20 14:05:00 -0300
 categories: post
 img: "https://pbs.twimg.com/media/GrKE7oGXAAArVhX?format=jpg&name=large"
-img-http: "http://pbs.twimg.com/media/GrKE7oGXAAArVhX?format=jpg&name=large"
+img-http: "http://jparinelli.github.io/assets/images/moebius-1-1.jpg"
+pre-text: "Hubo una vez un presidente que decidió tomarse una semana de vacaciones. Alegando sumo estrés y necesidad fisiológica, elevó un decreto en el que designaba a su mejor amigo como suplente temporal. En medio del revuelo generalizado y cuestionado por algunos medios, su respuesta fue: “El pueblo no debería quejarse porque, a pesar de yo haber sido electo representante al final, en las elecciones voté por mi amigo.”"
 ---
 Hubo una vez un presidente que decidió tomarse una semana de vacaciones. Alegando sumo estrés y necesidad fisiológica, elevó un decreto en el que designaba a su mejor amigo como suplente temporal. En medio del revuelo generalizado y cuestionado por algunos medios, su respuesta fue: “El pueblo no debería quejarse porque, a pesar de yo haber sido electo representante al final, en las elecciones voté por mi amigo.”
 
