@@ -31,4 +31,4 @@ Resulta imposible concebir que una institución, en soledad, se mantenga viva-en
 
 ##### [^3]:  Cualquier interpretación de corte biologicista o eugenista queda, así, descartada. El procedimiento es hipocrático.
 
-##### [^4]:  Como el metano que emanan los cuerpos en descomposición.
+##### [^4]:  Como el metano que emana de los cuerpos en descomposición.
