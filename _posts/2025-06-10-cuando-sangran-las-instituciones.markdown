@@ -19,13 +19,14 @@ Resulta imposible concebir que una institución, en soledad, se mantenga viva-en
 
 ¿Qué hacer con el diseño de nuestras instituciones sangrantes?
 
+<br>
 ---
 <br>
 
-[^1]:  Esto no es debatible y cualquiera que defienda un concepto abstracto de las instituciones no goza de cordura.
+## [^1]:  Esto no es debatible y cualquiera que defienda un concepto abstracto de las instituciones no goza de cordura.
 
-[^2]:  Esto no es una cuestión moral o contingente, sino que es así por diseño. No podría ser de otro modo.
+## [^2]:  Esto no es una cuestión moral o contingente, sino que es así por diseño. No podría ser de otro modo.
 
-[^3]:  Cualquier interpretación de corte biologicista o eugenista queda, así, descartada. El procedimiento es hipocrático.
+## [^3]:  Cualquier interpretación de corte biologicista o eugenista queda, así, descartada. El procedimiento es hipocrático.
 
-[^4]:  Como el metano que emanan los cuerpos en descomposición.
+## [^4]:  Como el metano que emanan los cuerpos en descomposición.
