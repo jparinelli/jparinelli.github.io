@@ -3,7 +3,7 @@ layout: post
 title: "Cuando sangran las instituciones"
 date:   2025-06-10 14:05:00 -0300
 categories: post
-img: "/assets/images/lunadesangrecsjn.jpeg"
+img: "/assets/images/lunadesangrecsjn.jpg"
 pre-text: "Las instituciones sangran porque están hechas de carne humana. Está entre las cualidades de las instituciones, entonces, el ser corruptibles. Entre las cualidades de la corrupción está la sangría. Las instituciones están diseñadas para sangrar, no porque estén hechas de cuerpos humanos, sino porque la sangre es combustible, y el combustible alimenta nuestras máquinas. La carne humana resulta indigerible para los cuerpos humanos, por lo que las instituciones no se alimentan de la sangre de otras en un sentido canibalístico. Lo que ellas alimentan en su decantamiento es, entonces, una máquina-sistema inhumana."
 ---
 
