@@ -20,7 +20,9 @@ Resulta imposible concebir que una institución, en soledad, se mantenga viva-en
 ¿Qué hacer con el diseño de nuestras instituciones sangrantes?
 
 <br>
+
 ---
+
 <br>
 
 ##### [^1]:  Esto no es debatible y cualquiera que defienda un concepto abstracto de las instituciones no goza de cordura.
