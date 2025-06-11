@@ -6,8 +6,8 @@ permalink: /about/
 
 #### La sigla
 
-**CERO** es la sigla para
+<br>
 
 #### El autor
 
-El autor de este sitio es Juan Parinelli, estudiante de Filosofía en la Universidad de Buenos Aires e investigador independiente. 
+El autor de este sitio es Juan Parinelli, estudiante de Filosofía en la Universidad de Buenos Aires.
